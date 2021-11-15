@@ -50,8 +50,22 @@ span{
     color: white;
 }
 
+.btn{
+    padding: 6px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    width: 80px;
+    background: #f53b57;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #f1c40f;
+}
 #resultContain{
-    color: red;
+    color: #f1c40f;
     font-size: 30px;
 }
 

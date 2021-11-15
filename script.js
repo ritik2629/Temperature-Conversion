@@ -2,8 +2,10 @@ const tempCalculate =() =>{
     const numberTemp = document.getElementById('tempr').value 
 
     // console.log(numberTemp);
+    const Reset =() =>{
 
-
+        let resetData =document.getElementById('tempr').innerHTML=""
+    }
     const tempSelect = document.getElementById('temp_diff');
     const valueTemp = temp_diff.options[tempSelect.selectedIndex].value
     // console.log(valueTemp);
